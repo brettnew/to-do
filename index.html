@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>To Do list</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>To Do</h1>
+
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Add a task:</h2>
+          <form id="new-task">
+            <div class="form-group">
+              <label for="new-task">Task</label>
+              <input type="text" class="form-control" id="new-task">
+            </div>
+            <div class="form-group">
+              <label for="new-task">What priority is your task (High, medium low)?</label>
+              <input type="text" class="form-control" id="priority-level">
+            </div>
+            <div class="form-group">
+              <label for="new-task">Notes on completing task:</label>
+              <input type="text" class="form-control" id="notes">
+            </div>
+
+
+            <button type="submit" class="btn">Add</button>
+          </form>
+
+          <h2>Tasks to do:</h2>
+          <ul id="to-do">
+
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <div id="show-task">
+            <h2></h2>
+
+            <form id="tasks">
+
+                <ul id="output-tasks">
+
+                </ul>
+
+
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

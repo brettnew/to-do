@@ -9,13 +9,13 @@
 _{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
 
 ## Specifications
-- Program should allow users to enter places they've been, including landmarks and notes, and then the webpage will display the location.
-  - Example Input: "Istanbul, hagia sophia, 'it was nice'"
-  - Example Output: "Istanbul"
+- Program should allow users to enter tasks to complete, one at a time, and then the webpage will display the tasks in a list, with a radio button next to each task.
+  - Example Input: "Make Bed"
+  - Example Output: "Make Bed" with radio button.
 
--Program should allow users to click on the place; when they do, the properties of the place should be displayed (landmarks, notes).
-  - Example Input: Click on "Istanbul"
-  - Example Output: "Istanbul, hagia sophia, 'it was nice'"
+-Program should allow users to click on a radio button to indicate a task is complete; and then submit the form, when they do, the task will be removed.
+  - Example Input: Click on radio button associated with "Make Bed" and click "submit."
+  - Example Output: "Make Bed" will be removed from list.
 
 ## Setup/Installation Requirements
 
