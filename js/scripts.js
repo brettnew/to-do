@@ -27,6 +27,10 @@ $(document).ready(function(){
       $(this).hide();
     });
 
+    $("input#new-task").val("");
+    $("input#priority-level").val("");
+    $("input#notes").val("");
+
 
   });
 });

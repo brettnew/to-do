@@ -1,8 +1,13 @@
-/*#show-task {
-  display: none;
-}*/
-
 
 ul {
   list-style: none;
+}
+
+.completed {
+  cursor: default;;
+  color: #0088cc;
+}*/
+
+/*.completed:hover {
+  text-decoration: underline;
 }
